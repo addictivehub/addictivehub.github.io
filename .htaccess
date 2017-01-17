@@ -1,0 +1,9 @@
+# Disable directory browsing
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteCond %{SERVER_PORT} 80
+  RewriteRule ^(.*)$ https://addictivehub.io/$1 [R,L]
+</IfModule>
