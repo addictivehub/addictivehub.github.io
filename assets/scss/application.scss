@@ -1,0 +1,92 @@
+@import "variables";
+
+// General
+
+html, body {
+  height: 100%;
+}
+
+a {
+  color: $accent;
+  &:hover {
+    color: $accent;
+    text-decoration: underline;
+  }
+}
+
+// Sections
+
+header {
+  background-color: $accent;
+  color: #fff;
+}
+
+main {
+  //
+}
+
+footer {
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+.logo-container {
+  padding: 100px 0;
+  .logo {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Share;
+    font-size: 50px;
+    line-height: 1.7em;
+    padding: 0 .5em;
+    small {
+      font-size: .6em;
+      line-height: 0.1em;
+    }
+  }
+}
+
+main {
+  padding: 20px 0;
+}
+
+.products {
+  &.community {
+    border: 1px solid rgba(#fff, 0.1);
+    padding: 10px;
+    text-align: left;
+    .title {
+      font-size: 30px;
+      font-weight: bold;
+      small {
+        display: block;
+        color: #aaa;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    .description {
+      margin: 20px 0;
+    }
+    .links {
+      text-align: center;
+      a {
+        border-radius: 5px;
+        display: inline-block;
+        padding: 10px;
+        transition: 200ms;
+        &:first-child {
+          border: 1px solid $accent;
+          &:hover {
+            background-color: $accent;
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

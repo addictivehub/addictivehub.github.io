@@ -1,0 +1,63 @@
+html, body {
+  height: 100%; }
+
+a {
+  color: #405169; }
+  a:hover {
+    color: #405169;
+    text-decoration: underline; }
+
+header {
+  background-color: #405169;
+  color: #fff; }
+
+footer {
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 60px; }
+
+.logo-container {
+  padding: 100px 0; }
+  .logo-container .logo {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Share;
+    font-size: 50px;
+    line-height: 1.7em;
+    padding: 0 .5em; }
+    .logo-container .logo small {
+      font-size: .6em;
+      line-height: 0.1em; }
+
+main {
+  padding: 20px 0; }
+
+.products.community {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  text-align: left; }
+  .products.community .title {
+    font-size: 30px;
+    font-weight: bold; }
+    .products.community .title small {
+      display: block;
+      color: #aaa;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase; }
+  .products.community .description {
+    margin: 20px 0; }
+  .products.community .links {
+    text-align: center; }
+    .products.community .links a {
+      border-radius: 5px;
+      display: inline-block;
+      padding: 10px;
+      transition: 200ms; }
+      .products.community .links a:first-child {
+        border: 1px solid #405169; }
+        .products.community .links a:first-child:hover {
+          background-color: #405169;
+          color: #fff;
+          text-decoration: none; }
