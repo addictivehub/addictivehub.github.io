@@ -15,6 +15,18 @@ footer {
   color: #aaa;
   font-size: 12px;
   margin-top: 60px; }
+  footer .links {
+    font-size: 0; }
+    footer .links a {
+      color: #aaa;
+      display: inline-block;
+      font-size: 24px;
+      margin-right: 10px;
+      transition: 300ms; }
+      footer .links a:last-child {
+        margin: 0; }
+      footer .links a:hover {
+        color: #777; }
 
 .logo-container {
   padding: 100px 0; }

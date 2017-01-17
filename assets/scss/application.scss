@@ -29,6 +29,20 @@ footer {
   color: #aaa;
   font-size: 12px;
   margin-top: 60px;
+  .links {
+    font-size: 0;
+    a {
+      color: #aaa;
+      display: inline-block;
+      font-size: 24px;
+      margin-right: 10px;
+      transition: 300ms;
+      &:last-child { margin: 0; }
+      &:hover {
+        color: #777;
+      }
+    }
+  }
 }
 
 .logo-container {
