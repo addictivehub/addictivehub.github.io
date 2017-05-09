@@ -28,6 +28,11 @@ header {
   }
   .logo-container {
     padding: 70px 0;
+    &.visible-xs {
+      .logo {
+        font-size: 40px;
+      }
+    }
     .logo {
       border: 1px solid #fff;
       border-radius: 5px;
@@ -57,11 +62,13 @@ main {
     .title {
       font-size: 30px;
       font-weight: bold;
+      line-height: 1;
       small {
         display: block;
         color: #aaa;
         font-size: 12px;
         font-weight: 400;
+        margin-top: 8px;
         text-transform: uppercase;
       }
     }
